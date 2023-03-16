@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-Book-Library/static/css/main.4533f3fd.css",
+    "main.js": "/React-Book-Library/static/js/main.4d6f57de.js",
+    "static/js/787.798387e2.chunk.js": "/React-Book-Library/static/js/787.798387e2.chunk.js",
+    "static/media/FreeBooks.png": "/React-Book-Library/static/media/FreeBooks.8990e6e2775619e02b69.png",
+    "static/media/news1.png": "/React-Book-Library/static/media/news1.f81f73b7e63c1f148c78.png",
+    "static/media/news2.png": "/React-Book-Library/static/media/news2.a3adabc8d4981c2d66a8.png",
+    "index.html": "/React-Book-Library/index.html",
+    "main.4533f3fd.css.map": "/React-Book-Library/static/css/main.4533f3fd.css.map",
+    "main.4d6f57de.js.map": "/React-Book-Library/static/js/main.4d6f57de.js.map",
+    "787.798387e2.chunk.js.map": "/React-Book-Library/static/js/787.798387e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4533f3fd.css",
+    "static/js/main.4d6f57de.js"
+  ]
+}
