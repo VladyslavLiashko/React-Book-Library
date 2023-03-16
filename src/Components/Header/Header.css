@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  background-color: #FFF;
+}
+header .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+header .header-wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+header .header-wrapper nav p {
+  font-weight: 400;
+}
+header .header-wrapper form {
+  width: 30%;
+}
+header .header-wrapper form input {
+  width: 100%;
+  height: 3rem;
+}
+header .header-wrapper button {
+  border: 1px solid #393280;
+  border-radius: 7px;
+  background-color: #FFF;
+  width: 10%;
+  height: 3em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1.17143px;
+}
+header .header-wrapper button:hover {
+  background-color: #ED553B;
+  color: #FFF;
+  transition: 1s;
+}/*# sourceMappingURL=Header.css.map */

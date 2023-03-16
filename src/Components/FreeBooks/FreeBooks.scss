@@ -1,0 +1,74 @@
+.freeBooks {
+    display: flex;
+    background: linear-gradient(137.07deg, #F5F7FA 2.03%, #B8C6DB 79.02%);
+    // box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 3%;
+
+    .free-books-img {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .free-books-text {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        .free-books-text-wrapper {
+            width: 80%;
+            margin: auto;
+        }
+
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            color: #000000;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 189%;
+            letter-spacing: 1.28857px;
+            color: #000000;
+            margin-top: 5%;
+        }
+
+        form {
+            margin-top: 5%;
+            
+            #freeBooksText {
+                background: #FFFFFF;
+                border-radius: 5px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 188%;
+                color: #9E9E9E;
+                width: 60%;
+                height: 3.5em;
+                border: none;
+            }
+
+            #freeBooksButton {
+                background: #ED553B;
+                border-radius: 0px 5px 5px 0px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 1.17143px;
+                color: #FFFFFF;
+                width: 30%;
+                height: 3em;
+                border: none;
+            }
+        }
+    }
+}

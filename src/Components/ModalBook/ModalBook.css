@@ -1,0 +1,94 @@
+.modal-book {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-book .modal-book-wrapper {
+  width: 70%;
+  background: linear-gradient(75.42deg, #FBEEEE 11.08%, #F7FFFE 89.87%);
+  display: flex;
+  justify-content: space-between;
+}
+.modal-book .modal-book-wrapper .modal-book-img {
+  width: 30%;
+  background: #F7FFFE;
+}
+.modal-book .modal-book-wrapper .modal-book-img .modal-book-img-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.modal-book .modal-book-wrapper .modal-book-img .modal-book-img-wrapper img {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.modal-book .modal-book-wrapper .modal-book-text {
+  width: 70%;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #393280;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #888888;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  text-transform: capitalize;
+  color: #393280;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ED553B;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper button {
+  border: 1px solid #393280;
+  border-radius: 7px;
+  width: 20%;
+  height: 3em;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper button a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #393280;
+}
+
+.modal-book-hidden {
+  display: none;
+}/*# sourceMappingURL=ModalBook.css.map */

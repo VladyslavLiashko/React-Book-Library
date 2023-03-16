@@ -1,0 +1,64 @@
+.freeBooks {
+  display: flex;
+  background: linear-gradient(137.07deg, #F5F7FA 2.03%, #B8C6DB 79.02%);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 3%;
+}
+.freeBooks .free-books-img {
+  width: 50%;
+}
+.freeBooks .free-books-img img {
+  width: 100%;
+}
+.freeBooks .free-books-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.freeBooks .free-books-text .free-books-text-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.freeBooks .free-books-text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+.freeBooks .free-books-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+  letter-spacing: 1.28857px;
+  color: #000000;
+  margin-top: 5%;
+}
+.freeBooks .free-books-text form {
+  margin-top: 5%;
+}
+.freeBooks .free-books-text form #freeBooksText {
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  color: #9E9E9E;
+  width: 60%;
+  height: 3.5em;
+  border: none;
+}
+.freeBooks .free-books-text form #freeBooksButton {
+  background: #ED553B;
+  border-radius: 0px 5px 5px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1.17143px;
+  color: #FFFFFF;
+  width: 30%;
+  height: 3em;
+  border: none;
+}/*# sourceMappingURL=FreeBooks.css.map */

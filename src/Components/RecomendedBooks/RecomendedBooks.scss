@@ -1,0 +1,25 @@
+.recomended-books {
+    background: linear-gradient(137.07deg, #F5F7FA 2.03%, #B8C6DB 79.02%);
+    // box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+    #h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        /* identical to box height */
+
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: #393280;
+    }
+
+    .recomended-books-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.searchBooks {
+  padding-top: 2%;
+  background: linear-gradient(137.07deg, #F5F7FA 2.03%, #B8C6DB 79.02%);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.searchBooks form {
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBooks form input {
+  width: 30%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #BCBCBC;
+  background: #F6F6F6;
+  border-radius: 20px;
+  border: none;
+}
+.searchBooks .searched-books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5%;
+}/*# sourceMappingURL=SearchBook.css.map */
