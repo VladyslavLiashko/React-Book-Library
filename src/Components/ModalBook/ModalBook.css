@@ -72,13 +72,20 @@
   text-transform: capitalize;
   color: #ED553B;
 }
-.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper button {
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper .modal-btns {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper .modal-btns button {
   border: 1px solid #393280;
   border-radius: 7px;
-  width: 20%;
+  width: 40%;
   height: 3em;
+  background-color: #FFFFFF;
 }
-.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper button a {
+.modal-book .modal-book-wrapper .modal-book-text .modal-box-text-wrapper .modal-btns button a {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;

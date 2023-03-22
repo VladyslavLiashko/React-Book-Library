@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 export const Header = () =>{
@@ -7,7 +8,8 @@ export const Header = () =>{
             <div className="header-wrapper">
                 <h1>OverDrive</h1>
                 <nav>
-                    <p>Browse Collection</p>
+                    <NavLink to = '/' style={{textDecoration:'none'}}><p>Home</p></NavLink>
+                    <NavLink to ='/Collection' style={{textDecoration:'none'}}><p>My Collection</p></NavLink> 
                     <p>Apps</p>
                     <p>Libby Blog</p>
                 </nav>

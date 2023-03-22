@@ -1,0 +1,63 @@
+.CollectionItem {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid gray;
+  margin-top: 3%;
+  padding-top: 2%;
+}
+.CollectionItem img {
+  width: 15%;
+}
+.CollectionItem .collection-item-info {
+  padding-left: 5%;
+}
+.CollectionItem .collection-item-info h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #393280;
+}
+.CollectionItem .collection-item-info h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #888888;
+}
+.CollectionItem .collection-item-info p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ED553B;
+}
+.CollectionItem .collection-item-info a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #393280;
+}
+.CollectionItem .collection-item-info a button {
+  border: 1px solid #393280;
+  border-radius: 7px;
+  width: 50%;
+  height: 3em;
+  background-color: white;
+}
+.CollectionItem .collection-item-info a button:hover {
+  background-color: #ED553B;
+  color: white;
+  transition: 1s;
+}/*# sourceMappingURL=CollectionItem.css.map */

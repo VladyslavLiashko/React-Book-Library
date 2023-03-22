@@ -82,24 +82,33 @@
                     color: #ED553B;
                 }
 
-                button {
+                .modal-btns {
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
 
-                    border: 1px solid #393280;
-                    border-radius: 7px;
-                    width: 20%;
-                    height: 3em;
+                    button {
 
-                    a {
-                        text-decoration: none;
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 220%;
-                        letter-spacing: 0.1em;
-                        text-transform: uppercase;
-                        color: #393280;
+                        border: 1px solid #393280;
+                        border-radius: 7px;
+                        width: 40%;
+                        height: 3em;
+                        background-color: #FFFFFF;
+
+                        a {
+                            text-decoration: none;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 220%;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                            color: #393280;
+                        }
                     }
                 }
+
             }
         }
     }
